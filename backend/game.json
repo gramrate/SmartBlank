@@ -1,0 +1,108 @@
+{
+  "lobby_id": "",
+  "lobby_name": "",
+  "is_active": true,
+  "players": {
+    "alive_players": 10,
+    "players": [
+      {
+        "name": "",
+        "position": 0,
+        "fouls": 0,
+        "is_alive": true,
+        "is_disqualified": false,
+        // 0 - Мирный,  1 - Мафия, 2 - Шериф, 3 - Дон,
+        "role": 0,
+        "best_turn": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  // 0 - Начало, 1 - Раздача, 2 - нулевая ночь, 3 - день, 4 - ночь, 5 - конец,
+  "stage_type": 0,
+
+
+  "registration": {
+    "players": [
+      {
+        "name": "",
+        "position": 0
+      }
+    ]
+  },
+  "days": [
+    {
+      "number": 0,
+      "today_have_vote": true,
+      "vote": {
+        "suggested_players": [
+          1,
+          2
+        ],
+        "voting": [
+          {
+            "position": 1,
+            "votes_count": 5
+          },
+          {
+            "position": 2,
+            "votes_count": 5
+          }
+        ]
+      },
+      "re-vote": {
+        "suggested_players": [
+          1,
+          2
+        ],
+        "voting": [
+          {
+            "position": 1,
+            "votes_count": 5
+          },
+          {
+            "position": 2,
+            "votes_count": 5
+          }
+        ]
+      },
+      "kick_all_votes": 0,
+
+    }
+  ],
+  "day_number": 0,
+  "nights": [
+    {
+      "number": 1,
+      "mafia": -1,
+      "sheriff": -1,
+      "don": -1
+    }
+  ],
+  "night_number": 0,
+  "end": {
+    // 0 - red, 1 - black
+    "winner": 0,
+    "players": [
+      {
+        "name": "",
+        "role": 0,
+        "position": 0,
+        "fouls": 0,
+        "is_disqualified": false,
+        "is_win": true,
+        "extra_points": 1.5,
+        "compensation": 0,
+        "result": 5,
+        "best_turn": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  }
+}

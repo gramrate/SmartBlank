@@ -1,0 +1,20 @@
+backend:
+  host: "0.0.0.0"
+  port: 8000
+  dev-mode: true
+  tls:
+    enabled: false
+    port: 443
+mongodb:
+  host: "localhost"
+  port: 27017
+  database: "mafia_prod"
+  username: "mafia_user"
+  password: "password123"
+  auth_source: "admin"
+settings:
+  timezone: 'Europe/Moscow'
+  debug: true
+  logger:
+    log-to-file: false
+    logs-dir: 'logs'
